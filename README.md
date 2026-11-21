@@ -10,6 +10,12 @@
 > - **Reines Hobbyprojekt – frei nutzbar, änderbar & verbreitbar:** Dieses Projekt entsteht ausschließlich aus reinem Hobby und Interesse am gemeinsamen Funk-/SDR-Hobby. Es steht ausdrücklich frei zur Verfügung und darf frei genutzt, weiterverbreitet, verändert und verbessert werden.
 <!-- DNX-DISCLAIMER-END -->
 
+<!-- DNX-PREVIEW-START -->
+## Live-Vorschau
+
+![Live-Vorschau — DNX Wetter 2D 3D](docs/preview.png)
+<!-- DNX-PREVIEW-END -->
+
 Eigenständiges Wetterfenster für eine vorhandene OpenWebRX+-Installation. Es arbeitet autark ohne Abhängigkeit von externen Zusatzservern.
 
 ## Funktionen
