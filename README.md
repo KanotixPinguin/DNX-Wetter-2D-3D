@@ -96,3 +96,12 @@ sudo ./install.sh uninstall # Sauber entfernen (Backups bleiben erhalten)
 - **CesiumJS & Leaflet** – 3D-/2D-Kartenbibliotheken
 
 Die jeweiligen Nutzungsbedingungen, Lizenzen und Abruflimits sind vom Betreiber zu beachten. Nicht für sicherheitskritische Warnungen verwenden.
+
+---
+
+## Verbindungen im DNX-Ökosystem
+
+![DNX Gesamtarchitektur & Verbindungen](docs/dnx-architektur-verbindungen.png)
+
+* **Verbindung zu `DNX-Styler` (`#dnx-weather-win` & `t_wetter`):** Im Styler-Block `#dnx-blk-tools` steuert **`DNX Wetter`** (`t_wetter` / `#dnx-weather-launch`) die 2D-Leaflet- und 3D-Cesium-Wetteransicht; schwebt ergänzend neben **`t_magnet` (`Magnetfeld`)** und **`t_iss` (`ISS`)**.
+* **Verbindung zu `DNX-Receiver-Account-Control`:** Das Recht **`weather`** aus `:8095/api/me` steuert die Freigabe pro Benutzerrolle.
